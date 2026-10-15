@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "levels": [
+    {
+      "id": "level_001",
+      "path": "res://data/levels/level_001.json"
+    },
+    {
+      "id": "level_002",
+      "path": "res://data/levels/level_002.json"
+    },
+    {
+      "id": "level_003",
+      "path": "res://data/levels/level_003.json"
+    },
+    {
+      "id": "level_004",
+      "path": "res://data/levels/level_004.json"
+    },
+    {
+      "id": "level_005",
+      "path": "res://data/levels/level_005.json"
+    },
+    {
+      "id": "level_006",
+      "path": "res://data/levels/level_006.json"
+    },
+    {
+      "id": "level_007",
+      "path": "res://data/levels/level_007.json"
+    },
+    {
+      "id": "level_008",
+      "path": "res://data/levels/level_008.json"
+    },
+    {
+      "id": "level_009",
+      "path": "res://data/levels/level_009.json"
+    },
+    {
+      "id": "level_010",
+      "path": "res://data/levels/level_010.json"
+    },
+    {
+      "id": "level_011",
+      "path": "res://data/levels/level_011.json"
+    },
+    {
+      "id": "level_012",
+      "path": "res://data/levels/level_012.json"
+    },
+    {
+      "id": "level_013",
+      "path": "res://data/levels/level_013.json"
+    },
+    {
+      "id": "level_014",
+      "path": "res://data/levels/level_014.json"
+    },
+    {
+      "id": "level_015",
+      "path": "res://data/levels/level_015.json"
+    },
+    {
+      "id": "level_016",
+      "path": "res://data/levels/level_016.json"
+    },
+    {
+      "id": "level_017",
+      "path": "res://data/levels/level_017.json"
+    },
+    {
+      "id": "level_018",
+      "path": "res://data/levels/level_018.json"
+    },
+    {
+      "id": "level_019",
+      "path": "res://data/levels/level_019.json"
+    },
+    {
+      "id": "level_020",
+      "path": "res://data/levels/level_020.json"
+    }
+  ]
+}

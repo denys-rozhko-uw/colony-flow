@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "ruleset_id": "frontier_v1",
+  "id": "level_006",
+  "revision": 1,
+  "title": "Цветной маршрут 6",
+  "width": 7,
+  "height": 2,
+  "slot_count": 5,
+  "palette": {
+    "rose": {
+      "hex": "#E85A5A",
+      "symbol": "●"
+    },
+    "cyan": {
+      "hex": "#57CAD2",
+      "symbol": "✦"
+    },
+    "mint": {
+      "hex": "#92D7AD",
+      "symbol": "◈"
+    }
+  },
+  "cells": [
+    [
+      null,
+      "mint",
+      "rose",
+      "mint",
+      "rose",
+      "mint",
+      null
+    ],
+    [
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan"
+    ]
+  ],
+  "boxes": [
+    {
+      "id": "b_cyan",
+      "color_id": "cyan",
+      "quota": 7,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 0
+    },
+    {
+      "id": "b_mint",
+      "color_id": "mint",
+      "quota": 3,
+      "blocked_by": [],
+      "ui_column": 1,
+      "ui_row": 0
+    },
+    {
+      "id": "b_rose",
+      "color_id": "rose",
+      "quota": 2,
+      "blocked_by": [],
+      "ui_column": 2,
+      "ui_row": 0
+    }
+  ],
+  "solution_order": [
+    "b_cyan",
+    "b_mint",
+    "b_rose"
+  ],
+  "tutorial_id": null
+}

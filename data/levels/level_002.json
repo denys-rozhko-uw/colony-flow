@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "ruleset_id": "frontier_v1",
+  "id": "level_002",
+  "revision": 1,
+  "title": "Цветной маршрут 2",
+  "width": 3,
+  "height": 2,
+  "slot_count": 5,
+  "palette": {
+    "leaf": {
+      "hex": "#65BE78",
+      "symbol": "■"
+    },
+    "sky": {
+      "hex": "#4F8FE8",
+      "symbol": "▲"
+    },
+    "violet": {
+      "hex": "#AD7EE8",
+      "symbol": "★"
+    }
+  },
+  "cells": [
+    [
+      "violet",
+      "sky",
+      "violet"
+    ],
+    [
+      "leaf",
+      "leaf",
+      "leaf"
+    ]
+  ],
+  "boxes": [
+    {
+      "id": "b_leaf",
+      "color_id": "leaf",
+      "quota": 3,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 0
+    },
+    {
+      "id": "b_sky",
+      "color_id": "sky",
+      "quota": 1,
+      "blocked_by": [
+        "b_leaf"
+      ],
+      "ui_column": 1,
+      "ui_row": 0
+    },
+    {
+      "id": "b_violet",
+      "color_id": "violet",
+      "quota": 2,
+      "blocked_by": [
+        "b_leaf"
+      ],
+      "ui_column": 2,
+      "ui_row": 0
+    }
+  ],
+  "solution_order": [
+    "b_leaf",
+    "b_sky",
+    "b_violet"
+  ],
+  "tutorial_id": "first_steps"
+}

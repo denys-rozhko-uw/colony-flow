@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "ruleset_id": "frontier_v1",
+  "id": "level_007",
+  "revision": 1,
+  "title": "Цветной маршрут 7",
+  "width": 8,
+  "height": 2,
+  "slot_count": 5,
+  "palette": {
+    "rose": {
+      "hex": "#E85A5A",
+      "symbol": "●"
+    },
+    "gold": {
+      "hex": "#E7B453",
+      "symbol": "◆"
+    },
+    "mint": {
+      "hex": "#92D7AD",
+      "symbol": "◈"
+    }
+  },
+  "cells": [
+    [
+      null,
+      "gold",
+      "rose",
+      "gold",
+      "rose",
+      "gold",
+      "rose",
+      null
+    ],
+    [
+      "mint",
+      "mint",
+      "mint",
+      "mint",
+      "mint",
+      "mint",
+      "mint",
+      "mint"
+    ]
+  ],
+  "boxes": [
+    {
+      "id": "b_mint",
+      "color_id": "mint",
+      "quota": 8,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 0
+    },
+    {
+      "id": "b_rose",
+      "color_id": "rose",
+      "quota": 3,
+      "blocked_by": [],
+      "ui_column": 1,
+      "ui_row": 0
+    },
+    {
+      "id": "b_gold",
+      "color_id": "gold",
+      "quota": 3,
+      "blocked_by": [],
+      "ui_column": 2,
+      "ui_row": 0
+    }
+  ],
+  "solution_order": [
+    "b_mint",
+    "b_rose",
+    "b_gold"
+  ],
+  "tutorial_id": null
+}

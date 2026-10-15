@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "ruleset_id": "frontier_v1",
+  "id": "level_004",
+  "revision": 1,
+  "title": "Цветной маршрут 4",
+  "width": 5,
+  "height": 2,
+  "slot_count": 5,
+  "palette": {
+    "rose": {
+      "hex": "#E85A5A",
+      "symbol": "●"
+    },
+    "gold": {
+      "hex": "#E7B453",
+      "symbol": "◆"
+    },
+    "violet": {
+      "hex": "#AD7EE8",
+      "symbol": "★"
+    },
+    "coral": {
+      "hex": "#EB8963",
+      "symbol": "⬟"
+    },
+    "cyan": {
+      "hex": "#57CAD2",
+      "symbol": "✦"
+    },
+    "mint": {
+      "hex": "#92D7AD",
+      "symbol": "◈"
+    }
+  },
+  "cells": [
+    [
+      "coral",
+      "cyan",
+      "mint",
+      "rose",
+      "gold"
+    ],
+    [
+      "violet",
+      "violet",
+      "violet",
+      "violet",
+      "violet"
+    ]
+  ],
+  "boxes": [
+    {
+      "id": "b_violet",
+      "color_id": "violet",
+      "quota": 5,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 0
+    },
+    {
+      "id": "b_coral",
+      "color_id": "coral",
+      "quota": 1,
+      "blocked_by": [],
+      "ui_column": 1,
+      "ui_row": 0
+    },
+    {
+      "id": "b_cyan",
+      "color_id": "cyan",
+      "quota": 1,
+      "blocked_by": [],
+      "ui_column": 2,
+      "ui_row": 0
+    },
+    {
+      "id": "b_mint",
+      "color_id": "mint",
+      "quota": 1,
+      "blocked_by": [],
+      "ui_column": 3,
+      "ui_row": 0
+    },
+    {
+      "id": "b_rose",
+      "color_id": "rose",
+      "quota": 1,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 1
+    },
+    {
+      "id": "b_gold",
+      "color_id": "gold",
+      "quota": 1,
+      "blocked_by": [],
+      "ui_column": 1,
+      "ui_row": 1
+    }
+  ],
+  "solution_order": [
+    "b_violet",
+    "b_coral",
+    "b_cyan",
+    "b_mint",
+    "b_rose",
+    "b_gold"
+  ],
+  "tutorial_id": null
+}

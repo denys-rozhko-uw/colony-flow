@@ -1,0 +1,10 @@
+.godot/
+.local_appdata/
+tests/.tmp/
+builds/*
+!builds/.gdignore
+*.log
+*.tmp
+*.bak
+*.keystore
+*.jks

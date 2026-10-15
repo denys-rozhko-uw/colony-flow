@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "ruleset_id": "unknown",
+  "id": "level_001",
+  "revision": 1,
+  "title": "Первый маршрут",
+  "width": 2,
+  "height": 2,
+  "slot_count": 5,
+  "palette": {
+    "red": {
+      "hex": "#E85A5A",
+      "symbol": "●"
+    },
+    "blue": {
+      "hex": "#4F8FE8",
+      "symbol": "▲"
+    }
+  },
+  "cells": [
+    [
+      "blue",
+      "blue"
+    ],
+    [
+      "red",
+      "red"
+    ]
+  ],
+  "boxes": [
+    {
+      "id": "b_red",
+      "color_id": "red",
+      "quota": 2,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 0
+    },
+    {
+      "id": "b_blue",
+      "color_id": "blue",
+      "quota": 2,
+      "blocked_by": [
+        "b_red"
+      ],
+      "ui_column": 0,
+      "ui_row": 1
+    }
+  ],
+  "solution_order": [
+    "b_red",
+    "b_blue"
+  ],
+  "tutorial_id": "first_steps"
+}

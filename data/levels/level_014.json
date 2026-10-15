@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "ruleset_id": "frontier_v1",
+  "id": "level_014",
+  "revision": 1,
+  "title": "Цветной маршрут 14",
+  "width": 7,
+  "height": 4,
+  "slot_count": 5,
+  "palette": {
+    "rose": {
+      "hex": "#E85A5A",
+      "symbol": "●"
+    },
+    "gold": {
+      "hex": "#E7B453",
+      "symbol": "◆"
+    },
+    "leaf": {
+      "hex": "#65BE78",
+      "symbol": "■"
+    },
+    "sky": {
+      "hex": "#4F8FE8",
+      "symbol": "▲"
+    },
+    "cyan": {
+      "hex": "#57CAD2",
+      "symbol": "✦"
+    },
+    "mint": {
+      "hex": "#92D7AD",
+      "symbol": "◈"
+    }
+  },
+  "cells": [
+    [
+      null,
+      "leaf",
+      "sky",
+      "leaf",
+      "sky",
+      "leaf",
+      null
+    ],
+    [
+      "gold",
+      "gold",
+      "gold",
+      "gold",
+      "gold",
+      "gold",
+      "gold"
+    ],
+    [
+      "rose",
+      "mint",
+      "rose",
+      "mint",
+      "rose",
+      "mint",
+      "rose"
+    ],
+    [
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan"
+    ]
+  ],
+  "boxes": [
+    {
+      "id": "b_cyan",
+      "color_id": "cyan",
+      "quota": 7,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 0
+    },
+    {
+      "id": "b_mint",
+      "color_id": "mint",
+      "quota": 3,
+      "blocked_by": [],
+      "ui_column": 1,
+      "ui_row": 0
+    },
+    {
+      "id": "b_rose",
+      "color_id": "rose",
+      "quota": 4,
+      "blocked_by": [],
+      "ui_column": 2,
+      "ui_row": 0
+    },
+    {
+      "id": "b_gold",
+      "color_id": "gold",
+      "quota": 7,
+      "blocked_by": [
+        "b_mint"
+      ],
+      "ui_column": 3,
+      "ui_row": 0
+    },
+    {
+      "id": "b_leaf",
+      "color_id": "leaf",
+      "quota": 3,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 1
+    },
+    {
+      "id": "b_sky",
+      "color_id": "sky",
+      "quota": 2,
+      "blocked_by": [],
+      "ui_column": 1,
+      "ui_row": 1
+    }
+  ],
+  "solution_order": [
+    "b_cyan",
+    "b_mint",
+    "b_rose",
+    "b_gold",
+    "b_leaf",
+    "b_sky"
+  ],
+  "tutorial_id": null
+}

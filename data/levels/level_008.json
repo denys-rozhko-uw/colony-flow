@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "ruleset_id": "frontier_v1",
+  "id": "level_008",
+  "revision": 1,
+  "title": "Цветной маршрут 8",
+  "width": 5,
+  "height": 3,
+  "slot_count": 5,
+  "palette": {
+    "rose": {
+      "hex": "#E85A5A",
+      "symbol": "●"
+    },
+    "gold": {
+      "hex": "#E7B453",
+      "symbol": "◆"
+    },
+    "leaf": {
+      "hex": "#65BE78",
+      "symbol": "■"
+    },
+    "sky": {
+      "hex": "#4F8FE8",
+      "symbol": "▲"
+    }
+  },
+  "cells": [
+    [
+      null,
+      "sky",
+      "sky",
+      "sky",
+      null
+    ],
+    [
+      "leaf",
+      "gold",
+      "leaf",
+      "gold",
+      "leaf"
+    ],
+    [
+      "rose",
+      "rose",
+      "rose",
+      "rose",
+      "rose"
+    ]
+  ],
+  "boxes": [
+    {
+      "id": "b_rose",
+      "color_id": "rose",
+      "quota": 5,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 0
+    },
+    {
+      "id": "b_gold_a",
+      "color_id": "gold",
+      "quota": 1,
+      "blocked_by": [],
+      "ui_column": 1,
+      "ui_row": 0
+    },
+    {
+      "id": "b_gold_b",
+      "color_id": "gold",
+      "quota": 1,
+      "blocked_by": [],
+      "ui_column": 2,
+      "ui_row": 0
+    },
+    {
+      "id": "b_leaf_a",
+      "color_id": "leaf",
+      "quota": 1,
+      "blocked_by": [],
+      "ui_column": 3,
+      "ui_row": 0
+    },
+    {
+      "id": "b_leaf_b",
+      "color_id": "leaf",
+      "quota": 2,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 1
+    },
+    {
+      "id": "b_sky",
+      "color_id": "sky",
+      "quota": 3,
+      "blocked_by": [],
+      "ui_column": 1,
+      "ui_row": 1
+    }
+  ],
+  "solution_order": [
+    "b_rose",
+    "b_gold_a",
+    "b_gold_b",
+    "b_leaf_a",
+    "b_leaf_b",
+    "b_sky"
+  ],
+  "tutorial_id": null
+}

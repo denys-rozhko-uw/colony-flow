@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "ruleset_id": "frontier_v1",
+  "id": "level_019",
+  "revision": 1,
+  "title": "Цветной маршрут 19",
+  "width": 8,
+  "height": 5,
+  "slot_count": 5,
+  "palette": {
+    "rose": {
+      "hex": "#E85A5A",
+      "symbol": "●"
+    },
+    "gold": {
+      "hex": "#E7B453",
+      "symbol": "◆"
+    },
+    "sky": {
+      "hex": "#4F8FE8",
+      "symbol": "▲"
+    },
+    "violet": {
+      "hex": "#AD7EE8",
+      "symbol": "★"
+    },
+    "coral": {
+      "hex": "#EB8963",
+      "symbol": "⬟"
+    },
+    "cyan": {
+      "hex": "#57CAD2",
+      "symbol": "✦"
+    },
+    "mint": {
+      "hex": "#92D7AD",
+      "symbol": "◈"
+    }
+  },
+  "cells": [
+    [
+      null,
+      "gold",
+      "gold",
+      "gold",
+      "gold",
+      "gold",
+      "gold",
+      null
+    ],
+    [
+      null,
+      "rose",
+      "mint",
+      "rose",
+      "mint",
+      "rose",
+      "mint",
+      "rose"
+    ],
+    [
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan"
+    ],
+    [
+      "violet",
+      "coral",
+      "violet",
+      "coral",
+      "violet",
+      "coral",
+      "violet",
+      "coral"
+    ],
+    [
+      "sky",
+      "sky",
+      "sky",
+      "sky",
+      "sky",
+      "sky",
+      "sky",
+      "sky"
+    ]
+  ],
+  "boxes": [
+    {
+      "id": "b_sky",
+      "color_id": "sky",
+      "quota": 8,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 0
+    },
+    {
+      "id": "b_violet",
+      "color_id": "violet",
+      "quota": 4,
+      "blocked_by": [],
+      "ui_column": 1,
+      "ui_row": 0
+    },
+    {
+      "id": "b_coral",
+      "color_id": "coral",
+      "quota": 4,
+      "blocked_by": [],
+      "ui_column": 2,
+      "ui_row": 0
+    },
+    {
+      "id": "b_cyan",
+      "color_id": "cyan",
+      "quota": 8,
+      "blocked_by": [
+        "b_violet"
+      ],
+      "ui_column": 3,
+      "ui_row": 0
+    },
+    {
+      "id": "b_mint",
+      "color_id": "mint",
+      "quota": 3,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 1
+    },
+    {
+      "id": "b_rose",
+      "color_id": "rose",
+      "quota": 4,
+      "blocked_by": [],
+      "ui_column": 1,
+      "ui_row": 1
+    },
+    {
+      "id": "b_gold",
+      "color_id": "gold",
+      "quota": 6,
+      "blocked_by": [
+        "b_mint"
+      ],
+      "ui_column": 2,
+      "ui_row": 1
+    }
+  ],
+  "solution_order": [
+    "b_sky",
+    "b_violet",
+    "b_coral",
+    "b_cyan",
+    "b_mint",
+    "b_rose",
+    "b_gold"
+  ],
+  "tutorial_id": null
+}

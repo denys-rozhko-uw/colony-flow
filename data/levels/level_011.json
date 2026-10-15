@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "ruleset_id": "frontier_v1",
+  "id": "level_011",
+  "revision": 1,
+  "title": "Цветной маршрут 11",
+  "width": 8,
+  "height": 3,
+  "slot_count": 5,
+  "palette": {
+    "sky": {
+      "hex": "#4F8FE8",
+      "symbol": "▲"
+    },
+    "violet": {
+      "hex": "#AD7EE8",
+      "symbol": "★"
+    },
+    "coral": {
+      "hex": "#EB8963",
+      "symbol": "⬟"
+    },
+    "cyan": {
+      "hex": "#57CAD2",
+      "symbol": "✦"
+    }
+  },
+  "cells": [
+    [
+      null,
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      "cyan",
+      null
+    ],
+    [
+      "violet",
+      "coral",
+      "violet",
+      "coral",
+      "violet",
+      "coral",
+      "violet",
+      "coral"
+    ],
+    [
+      "sky",
+      "sky",
+      "sky",
+      "sky",
+      "sky",
+      "sky",
+      "sky",
+      "sky"
+    ]
+  ],
+  "boxes": [
+    {
+      "id": "b_sky",
+      "color_id": "sky",
+      "quota": 8,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 0
+    },
+    {
+      "id": "b_violet",
+      "color_id": "violet",
+      "quota": 4,
+      "blocked_by": [],
+      "ui_column": 1,
+      "ui_row": 0
+    },
+    {
+      "id": "b_coral",
+      "color_id": "coral",
+      "quota": 4,
+      "blocked_by": [],
+      "ui_column": 2,
+      "ui_row": 0
+    },
+    {
+      "id": "b_cyan",
+      "color_id": "cyan",
+      "quota": 6,
+      "blocked_by": [
+        "b_violet"
+      ],
+      "ui_column": 3,
+      "ui_row": 0
+    }
+  ],
+  "solution_order": [
+    "b_sky",
+    "b_violet",
+    "b_coral",
+    "b_cyan"
+  ],
+  "tutorial_id": null
+}

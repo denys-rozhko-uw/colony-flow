@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "ruleset_id": "frontier_v1",
+  "id": "branches",
+  "revision": 1,
+  "title": "Первый маршрут",
+  "width": 3,
+  "height": 3,
+  "slot_count": 5,
+  "palette": {
+    "red": {
+      "hex": "#E85A5A",
+      "symbol": "●"
+    },
+    "blue": {
+      "hex": "#4F8FE8",
+      "symbol": "▲"
+    },
+    "green": {
+      "hex": "#65BE78",
+      "symbol": "■"
+    }
+  },
+  "cells": [
+    [
+      "green",
+      "green",
+      "green"
+    ],
+    [
+      "blue",
+      "blue",
+      "blue"
+    ],
+    [
+      "red",
+      "red",
+      "red"
+    ]
+  ],
+  "boxes": [
+    {
+      "id": "b_red",
+      "color_id": "red",
+      "quota": 3,
+      "blocked_by": [],
+      "ui_column": 0,
+      "ui_row": 0
+    },
+    {
+      "id": "b_blue",
+      "color_id": "blue",
+      "quota": 3,
+      "blocked_by": [
+        "b_red"
+      ],
+      "ui_column": 0,
+      "ui_row": 1
+    },
+    {
+      "id": "b_green",
+      "color_id": "green",
+      "quota": 3,
+      "blocked_by": [
+        "b_red"
+      ],
+      "ui_column": 2,
+      "ui_row": 0
+    }
+  ],
+  "solution_order": [
+    "b_red",
+    "b_blue",
+    "b_green"
+  ],
+  "tutorial_id": "first_steps"
+}
